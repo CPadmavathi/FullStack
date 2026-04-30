@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f8fb;
+  color: #1f2937;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.subtitle {
+  margin-top: 8px;
+  color: #4b5563;
+}
+
+.toolbar {
+  margin: 18px 0 22px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+select,
+input[type="date"] {
+  padding: 8px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 12px;
+}
+
+.card,
+.panel {
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  padding: 14px;
+}
+
+.card-title {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.card-value {
+  font-size: 24px;
+  margin-top: 6px;
+  font-weight: 700;
+}
+
+.panel {
+  margin-top: 14px;
+}
+
+li {
+  margin-bottom: 8px;
+}
